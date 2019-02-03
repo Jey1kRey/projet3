@@ -1,0 +1,31 @@
+h1
+{
+	font-size: 2em;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h2
+{
+	font-size: 2em;
+	color: gray;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h3
+{
+	font-size: 2em;
+	color: gray;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+section
+{
+	margin-left: 250px;
+	border: 5px solid black;
+	text-align: justify;
+	padding: 12px;
+}
+

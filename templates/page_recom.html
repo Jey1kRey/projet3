@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='recomm.css')}}"/>
+		<title> test de recommandation </title>
+	</head>
+	<body>
+		<header>
+			<h1>Indiquer le titre d'un film</h1>
+				<form action="." method="POST">
+					<input type="text" name="text">
+					<button type="submit">OK</button>
+				</form>
+		</header>
+		
+			<section class="recommandation">
+
+				<h2> Voici les films que vous pourriez apprécier </h2>
+					<ul>	
+						<li>{{premier_film}}</li>
+						<li>{{deuxieme_film}}</li>
+						<li>{{troisieme_film}}</li>
+						<li>{{quatrieme_film}}</li>
+						<li>{{cinquieme_film}}</li>
+					</ul>			
+			</section>	
+		
+			<section class="topfilms">
+				<h3> Les films les mieux notés</h3>
+					<ul>
+						<li> The Shawshank Redemption</li>
+						<li>The Godfather</li>
+						<li>The Dark Knight</li>
+						<li>Pulp Fiction</li>
+						<li>The Lord of the Rings: the Return of the King</li>
+						<li>Inception</li>
+						<li>Schindler's List</li>
+						<li>Fight Club</li>
+						<li>Forrest Gump</li>
+					
+					</ul>	
+			
+			</section>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
